@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8e9dd;
+    color: #333;
+}
+
+.logo {
+    width: 125px;
+}
+.container-fluid{
+    background-color: #f2c9b7;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 2px;
+}
+
+.nav-link {
+    text-decoration: none;
+    background-color: #F3BF8A;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    background-color: #E05F5F;
+    color: white;
+    transform: scale(1.05);
+}
+
+.intro-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #E05F5F;
+    margin-top: 50px;
+}
+
+.name-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    text-align: end;
+    color: #E05F5F;
+}
+
+.user-image {
+    height: 800px;
+    width: 700px;
+}
+
+.about-section {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    min-height: 80vh;
+}
+
+.user2-image-container {
+    background-color: #f2c9b7;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.user2-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.about-content {
+    padding: 20px;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #E05F5F;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: #f2c9b7;
+    border: none;
+    font-weight: 700;
+    color: #000;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: #E05F5F;
+    color: #fff;
+}
+.projects-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #E05F5F;
+    margin-top: 50px;
+}
+.footer {
+    background-color: #f2c9b7;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.social-icons img { 
+    width: 30px;
+    margin-right: 10px;
+    
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
